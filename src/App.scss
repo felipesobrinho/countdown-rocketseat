@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+$black: #4D4C59;
+$purple: #6C63FF;
+$light-grey: #C8C8C8;
+$text-color: #9C9AB6;
+
+$font-primary: 'Poppins', 'Sans-serif', 'Roboto';
+
+header img, footer img {
+ width: 100%;
+ position: relative;
+}
+
+header {
+  min-width: auto;
+}
+
+body {
+  font-family: $font-primary;
+  background-color: white;
+}
+
+main {
+	display: flex;
+  justify-content: space-around;
+
+  img{
+    min-height: 600px;
+  }
+}
+
+.container {
+  display: block; 
+  padding: 150px 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+  color: $purple;
+}
+
+.timestamps {
+  font-size: 14px;
+  color: #9C9AB6;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown {
+  font-size: 72px;
+  letter-spacing: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #9C9AB6;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 16px;
+  background-color: $purple;
+  border-radius: 8px; 
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #645cfd;
+}
+
+
+footer img {
+  position: absolute;
+}
